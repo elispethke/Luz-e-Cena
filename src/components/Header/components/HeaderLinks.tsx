@@ -9,7 +9,7 @@ const HeaderLinks = () => {
          <MenuItem>Club Fidelidade</MenuItem>
           <MenuItem>Sobre Nós</MenuItem>
     </MenuList>
-  )
-}
+  );
+};
 
 export default HeaderLinks

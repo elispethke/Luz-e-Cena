@@ -1,11 +1,10 @@
-import React from "react";
-import HeaderList from "./components/headerList";
-import HeaderListItem from "./components/headerListItem";
+
+import HeaderList from "./components/HeaderList";
+import HeaderListItem from "./components/HeaderListItem";
 import Logo from "../Logo";
 import HeaderLinks from "./components/HeaderLinks";
 import HeaderAction from "./components/HeaderAction";
 import HeaderFormFilters from "../HeaderFormFilter";
-
 
 
 const Header = () => {

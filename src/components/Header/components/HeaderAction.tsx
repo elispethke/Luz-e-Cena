@@ -6,10 +6,10 @@ const HeaderAction = () => {
   return (
     <div>
         <Button variant='icon'>
-          <HiOutlineShoppingCart style={{ color: 'white', width: 24, height: 24 }}  />
+          <HiOutlineShoppingCart   />
         </Button>
         <Button variant='icon'>
-          <HiOutlineUser style={{ color: 'white', width: 24, height: 24 }} />
+          <HiOutlineUser />
         </Button>
     </div>
   )

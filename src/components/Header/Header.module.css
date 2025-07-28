@@ -3,14 +3,15 @@
   align-items: center;
   justify-content: center;
   gap: var(--gap-xl);
-  background-color: #161616;
+  background-color: var(--branco);
   padding: var(--padding-s) 0;
-}
-
-.menuitem {
   list-style: none;
  
 }
+.menuItem {
+  list-style: none;
+}
+
 
 .icones {
   display: flex;
@@ -20,4 +21,10 @@
   font-weight: 400;
   
   
+}
+.menuItem img {
+  background-color: rgb(24, 24, 24);
+  padding: 8px;
+  border-radius: 8px;
+  width: 120px; 
 }
