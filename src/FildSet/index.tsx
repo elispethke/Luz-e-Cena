@@ -2,7 +2,7 @@ import React from "react";
 import styles from  './FildSet.module.css';
 
 type FieldsetProps = {
-    variant?: "primary" | "secudary"
+    variant?: "primary" | "secondary"
 } & React.FieldsetHTMLAttributes<HTMLFieldSetElement>;
 
 const Fieldset = ({children, variant ="primary"}: FieldsetProps) => {
