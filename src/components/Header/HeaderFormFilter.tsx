@@ -1,7 +1,7 @@
 
-import SelectorGroup from './Selector/SelectorGroup'
+import SelectorGroup from '../Selector/SelectorGroup'
 import {FaLocationDot} from 'react-icons/fa6';
-import SelectorOption from './Selector/SelectorGroup/SelectorOption';
+import SelectorOption from '../Selector/SelectorGroup/SelectorOption';
 
 const cidades = [
     { id: 1, nome: "São Paulo" },
